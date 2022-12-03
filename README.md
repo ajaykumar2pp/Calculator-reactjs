@@ -1,6 +1,47 @@
-# Getting Started with Create React App
+# Calculator Reactjs Project 🚀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## ⭐ Introduction
+
+This is a Calculator  Project which is built using Reactjs, Bootstrap. It is responsive across all devices.
+<br/>
+<br/>
+
+## Features ( Test your API’s using Postman )
+-Add<br/>
+-Multiply
+ <br/>
+-Subtract<br/>
+-Divide<br/><br/>
+-Clear<br/>
+-Equal<br/>
+<br/>
+<br/>
+.
+## Available Scripts
+In the project directory, you can run:
+
+### `npm start`
+Runs the app in the development mode.\
+Open [http://localhost:2000](http://localhost:2000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+<br/>
+<br/>
+
+## Packages Install
+-react-bootsrap <br/>
+
+
+
+
+<br/>
+<br/>
+
+## 💻 
+![Screenshot (73)](https://user-images.githubusercontent.com/102378038/205445002-33e51754-cd0a-4478-8be9-96b39067cf8f.png)
+
+
 
 ## Available Scripts
 
