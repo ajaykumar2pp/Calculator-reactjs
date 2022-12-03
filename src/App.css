@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+}
+.heading{
+  font-size: 30px;
+  color: rgb(12, 160, 52);
+  font-weight: bold;
+  margin-top: 25px;
+}
+body {
+  background: #f1f1f1;
+  color: #fff;
+  font-family: 'Quicksand', sans-serif;
+  overflow-x: hidden;
+}
+
+h1 {
+  text-align: center;
+}
+
+.calculator {
+   margin:  auto auto;
+   height: 300px;
+  width: 350px;
+  background: #00838f;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
+  position: relative; 
+ 
+}
+
+.calculatorOutput {
+  background-color: #fff;
+  height: 200px;
+  width: 100%;
+}
+
+.calculatorError {
+  color: red;
+  font-size: 1.5em;
+}
+
+.calculatorKeypad {
+  height: 300px;
+}
+
+.calculatorKeypad button {
+  width: 80px;
+  background: none;
+  height: 75px;
+  font-size: 22px;
+  border: 0;
+  padding: 0;
+ 
+}
+
+.calculatorButtons {
+  height: 300px;
+  width: 250px;
+  background-color: #7ed0b0;
+}
+
+.calculatorOperator {
+  background-color: #7ed0b0;
+  color: #fff;
+  width: 100px;
+  position: absolute;
+  right: 0;
+  height: 300px;
+}
+
+.calculatorOperator button {
+  font-size: 18px;
+  height: 45px;
+}
+
+.calculatorOperator button:last-child {
+  height: 70px;
+}
+
+.calculatorButtons button:active,
+.calculatorButtons button:hover,
+.calculatorOperator button:active,
+.calculatorOperator button:hover {
+  background:#94aca4;
+}
+
+
+
+.calculatorInput,
+.calculatorAnswer,
+.calculatorError {
+  text-align: right;
+  padding: 28px 16px 0 16px;
+  border: 0;
+  width: 350px;
+}
+
+.calculatorAnswer {
+  color: #000;
+  font-size: 3em;
+}
+
+.calculatorInput {
+  color: #999;
+  font-size: 2.5em;
+}
+
+@media (max-width: 450px) {
+  .navbar-fixed-bottom,
+  .navbar-fixed-top {
+    position: inherit;
+  }
+  .calculator {
+    margin-top: 3em;
+  }
+}
+
