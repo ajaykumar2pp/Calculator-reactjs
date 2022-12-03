@@ -6,7 +6,7 @@ This is a Calculator  Project which is built using Reactjs, Bootstrap. It is res
 <br/>
 <br/>
 
-## Features ( Test your API’s using Postman )
+## Features 
 -Add<br/>
 -Multiply
  <br/>
